@@ -1,0 +1,115 @@
+.bg-container {
+  background: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  font-family: 'Roboto';
+  padding-top: 50px;
+}
+.head {
+  font-size: 50px;
+  color: #1e293b;
+  text-align: center;
+  font-weight: 500;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.timer-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+.timer-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 30px;
+  height: 150px;
+  width: 150px;
+  margin-left: 40px;
+}
+.time-para {
+  font-size: 35px;
+  color: #00d9f5;
+  margin-bottom: 0px;
+}
+.state-para {
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+.sr-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sr-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+}
+.btn-content {
+  font-weight: 600;
+  font-size: 23px;
+  font-family: 'Roboto';
+}
+.start-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sr-icon {
+  width: 25px;
+  margin-right: 7px;
+}
+.restart-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sr-button {
+  background-color: transparent;
+  border-width: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.set-limit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.sl-button {
+  background-color: transparent;
+  border-width: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: 900;
+  font-size: 25px;
+}
+.set-minutes {
+  background: linear-gradient(to left, #00d9f5, #40df82);
+  padding: 10px;
+  width: 60px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 900;
+  font-size: 20px;
+}
